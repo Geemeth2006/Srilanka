@@ -109,3 +109,94 @@
     url(images/anuradhapura.jpg);
 }
 
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .hero-section {
+    height: 600px;
+  }
+  .visit-text {
+    font-size: 120px;
+  }
+  .activity-section {
+    height: auto;
+  }
+  .activity-section h2 {
+    font-size: 40px;
+  }
+  .cards {
+    flex-wrap: wrap;
+    padding: 30px 20px;
+  }
+  .card {
+    width: 280px;
+    height: 380px;
+    margin: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    height: 500px;
+  }
+  .visit-text {
+    font-size: 80px;
+  }
+  .visit-para {
+    font-size: 16px;
+    padding: 0 20px;
+  }
+  .activity-section h2 {
+    font-size: 32px;
+    padding-top: 30px;
+  }
+  .cards {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+  }
+  .card {
+    width: 90%;
+    max-width: 350px;
+    height: auto;
+    margin: 15px auto;
+    padding: 30px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-section {
+    height: 400px;
+  }
+  .visit-text {
+    font-size: 50px;
+  }
+  .visit-para {
+    font-size: 14px;
+    padding: 0 15px;
+  }
+  .activity-section h2 {
+    font-size: 24px;
+    padding-top: 20px;
+  }
+  .cards {
+    padding: 15px 5px;
+  }
+  .card {
+    width: 95%;
+    max-width: 100%;
+    margin: 10px auto;
+    padding: 20px 15px;
+    border-radius: 15px;
+  }
+  .card-img {
+    width: 120px;
+    height: 120px;
+  }
+  .card h3 {
+    font-size: 22px;
+  }
+  .card p {
+    font-size: 13px;
+  }
+}
