@@ -66,6 +66,12 @@
   text-align: center;
   border-radius: 30px;
   padding: 50px 30px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.082);
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
 }
 .card-img {
   width: 175px;
@@ -107,4 +113,48 @@
   background:
     linear-gradient(to bottom, rgba(255, 230, 219, 0.856)),
     url(images/anuradhapura.jpg);
+}
+.card-section {
+  padding-top: 1px;
+  height: 500px;
+  background-color: #fffdfc;
+
+}
+.guide-card {
+  margin: 100px auto;
+  width: 600px;
+  height: 240px;
+  padding: 30px 50px;
+  background-color: rgb(249, 243, 255);
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.082);
+
+}
+.my-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.guide-text{
+  text-align: center;
+}
+.guide-text h3 {
+  font-family: escula;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.guide-card p {
+  width: 350px;
+  font-family: arial;
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+.guide-text h4 {
+  font-family: escula_bold;
+  font-size: 20px;
 }
